@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Vluggr")]
+[assembly: AssemblyTitle("Vluggr.SourceControl")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Vluggr")]
+[assembly: AssemblyProduct("Vluggr.SourceControl")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8ed2bbaa-4ec2-4fe1-9a88-baf013a90f5b")]
+[assembly: Guid("65426845-d6b3-4ad4-94e3-749d0ead5fe4")]
 
 // Version information for an assembly consists of the following four values:
 //

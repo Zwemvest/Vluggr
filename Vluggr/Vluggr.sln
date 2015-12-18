@@ -3,44 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vluggr", "Vluggr\Vluggr.csproj", "{F7407469-540B-4655-B54D-D82DB8D50272}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vluggr.Client", "Vluggr\Vluggr.Client.csproj", "{8ED2BBAA-4EC2-4FE1-9A88-BAF013A90F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vluggr.Common", "Vluggr.Common\Vluggr.Common.csproj", "{A599176E-36F5-4315-AF9B-C45B345C4915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vluggr.SourceControl", "Vluggr.SourceControl\Vluggr.SourceControl.csproj", "{65426845-D6B3-4AD4-94E3-749D0EAD5FE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|ARM = Debug|ARM
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|ARM = Release|ARM
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|ARM.ActiveCfg = Debug|ARM
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|ARM.Build.0 = Debug|ARM
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|ARM.Deploy.0 = Debug|ARM
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|x64.ActiveCfg = Debug|x64
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|x64.Build.0 = Debug|x64
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|x64.Deploy.0 = Debug|x64
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|x86.ActiveCfg = Debug|x86
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|x86.Build.0 = Debug|x86
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Debug|x86.Deploy.0 = Debug|x86
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|ARM.ActiveCfg = Release|ARM
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|ARM.Build.0 = Release|ARM
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|ARM.Deploy.0 = Release|ARM
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|x64.ActiveCfg = Release|x64
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|x64.Build.0 = Release|x64
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|x64.Deploy.0 = Release|x64
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|x86.ActiveCfg = Release|x86
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|x86.Build.0 = Release|x86
-		{F7407469-540B-4655-B54D-D82DB8D50272}.Release|x86.Deploy.0 = Release|x86
+		{8ED2BBAA-4EC2-4FE1-9A88-BAF013A90F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED2BBAA-4EC2-4FE1-9A88-BAF013A90F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED2BBAA-4EC2-4FE1-9A88-BAF013A90F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED2BBAA-4EC2-4FE1-9A88-BAF013A90F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A599176E-36F5-4315-AF9B-C45B345C4915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A599176E-36F5-4315-AF9B-C45B345C4915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A599176E-36F5-4315-AF9B-C45B345C4915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A599176E-36F5-4315-AF9B-C45B345C4915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65426845-D6B3-4AD4-94E3-749D0EAD5FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65426845-D6B3-4AD4-94E3-749D0EAD5FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65426845-D6B3-4AD4-94E3-749D0EAD5FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65426845-D6B3-4AD4-94E3-749D0EAD5FE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
